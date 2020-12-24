@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    border: 2px solid black;
+    background:url("../../img/header.jpg");
+    height: 163px;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+}
+
+.tabContainer{
+    width: 50%;
+    height: 550px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 115px;
+    overflow: hidden;
+}
+.tabContainer .buttonContainer{
+    height: 12%;
+}
+.tabContainer .buttonContainer button{
+    width: 25%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #eee;
+    margin-right: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: none;
+    outline: none;
+}
+.tabContainer .buttonContainer button:hover{
+    background-color: #d7d4d4;
+}
+.tabContainer .tabPanel{
+    height: 88%;
+    background-color: gray;
+    color: white;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 13px;
+    display: none;
+}
+
+.tabContainer .textFields{
+    margin-left: 25px;
+    margin-bottom: 15px;
+    width: 340px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    background-color: #eee;
+    outline: none;
+}
+
+.tabContainer .labels{
+    margin-left: 25px;
+    width: 340px;
+}
+
+.tabPanel .payButton{
+    width: 200px;
+    height: 40px;
+    float: right;
+    margin-right: 70px;
+    margin-top: 30px;
+    color: white;
+    background-color: #4a18a0;
+}
+
+.tabPanel .uploadFile{
+    margin-left: 22px;
+}
+
+.tabPanel .uploadB{
+    width: 100px;
+    background-color: #4a18a0;
+    color: white;
+}
+
+.box img{
+    width: 440px;
+    margin-left: 150px;
+    float: left;
+}
